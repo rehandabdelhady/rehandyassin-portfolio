@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,6 +29,7 @@ gtag('config', 'G-7CT6BMVEQK');
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rehand Abdelhady Yassin — Aerospace Engineer</title>
+<meta name="description" content="Aerospace engineer: combustion systems, CFD, satellite structural design. Zewail City, 2025.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Exo+2:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
@@ -196,6 +196,13 @@ object-fit:contain;
 background:#111827;
 padding:12px;
 }
+/* patched: slider buttons + skills without % bars */
+.proj-slider{position:relative}
+.slider-btn{position:absolute;top:50%;transform:translateY(-50%);width:34px;height:34px;border:1px solid var(--border2);background:rgba(6,8,15,.75);color:var(--accent);cursor:none;z-index:3;font-size:14px}
+.slider-btn.prev{left:8px}.slider-btn.next{right:8px}
+.slider-btn:hover{background:var(--accent);color:var(--bg)}
+.sk-track,.sk-pct{display:none}
+.sk-item{margin-bottom:12px}.sk-name{min-width:0}
 /* ── EXPERIENCE ── */
 #experience{background:var(--bg)}
 .exp-wrap{display:flex;flex-direction:column;gap:2px;background:var(--border)}
@@ -822,6 +829,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     <li><a href="#awards">Awards</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#experience">Experience</a></li>
+    <li><a href="#leadership">Leadership</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
@@ -838,7 +846,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       Yassin
     </h1>
     <div class="hero-title">Propulsion · CFD · Structural Design</div>
-    <p class="hero-desc">Aerospace engineering graduate with hands-on experience in combustion systems, satellite design, CFD analysis, and mechanical engineering. Building the future of aerospace — one simulation at a time.</p>
+    <p class="hero-desc">Aerospace engineering graduate (Zewail City, 2025) with research and hands-on experience in combustion systems, satellite structural design, and CFD analysis. Research interests: hydrogen and hydrocarbon fuel combustion, CFD, and sustainable energy systems.</p>
     <div class="hero-badges">
       <span class="badge badge-gold">★ NASA Global Nominee</span>
       <span class="badge badge-o">IOM/UN · 3rd Place MENA</span>
@@ -889,7 +897,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     </svg>
 
     <div class="hero-photo-wrap">
-      <img src="ZewailGrad-1127.jpg"" alt="Rehand Abdelhady Yassin" class="hero-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <img src="ZewailGrad-1127.jpg" alt="Rehand Abdelhady Yassin" class="hero-photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
       <div style="display:none;width:220px;height:220px;border-radius:50%;background:var(--bg3);border:2px solid var(--accent);align-items:center;justify-content:center;font-family:var(--head);font-size:48px;font-weight:700;color:var(--accent)">RAY</div>
       <div class="photo-ring ring1"><div class="rdot" style="background:var(--accent);box-shadow:0 0 8px var(--accent)"></div></div>
       <div class="photo-ring ring2"><div class="rdot" style="background:var(--accent2);box-shadow:0 0 8px var(--accent2);top:auto;bottom:-3.5px;left:calc(50% - 3.5px)"></div></div>
@@ -902,10 +910,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <!-- STATS -->
 <div class="stats-bar reveal">
-  <div class="stat"><div class="stat-n">5+</div><div class="stat-l">Years engineering</div></div>
+  <div class="stat"><div class="stat-n">15+</div><div class="stat-l">CFD cases run</div></div>
   <div class="stat"><div class="stat-n">12+</div><div class="stat-l">Technical projects</div></div>
-  <div class="stat"><div class="stat-n">4</div><div class="stat-l">International awards</div></div>
-  <div class="stat"><div class="stat-n">6</div><div class="stat-l">Internships & roles</div></div>
+  <div class="stat"><div class="stat-n">4</div><div class="stat-l">Awards &amp; recognitions</div></div>
+  <div class="stat"><div class="stat-n">7</div><div class="stat-l">Internships & roles</div></div>
 </div>
 
 <!-- AWARDS -->
@@ -918,7 +926,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       <div class="award-card aw-gold">
         <img src="NASA.jpg" class="aw-img" alt="NASA Space Apps">
         <div class="aw-rank">★ NASA · Global Nominee · Top ~3%</div>
-        <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUD9tdJ1NWUSaCW5VwWvU-SoBRAGcSOY8Jlr8KGn5lylsKNiVWJHCf8OnlP5FersrzTBsRy6XArEwTU2V1tIyXKdZVNgHZxqnrCcz60w8mVOQOJU-KYvJ7HDul_MwNIKdLJRRXZ1c-T-1U0Abx7Fzkf9gjhrD7GM94klQyVA-xw0wf49qjag-iZAOWP3NBAmpy6vp1UhdAoFrcDQnxqNp1FkBMn3eUXl-g28Rn_oJiIwzqtD=w800" class="aw-img" alt="NASA Space Apps" onerror="this.style.display='none'">
         <div class="aw-title">NASA Space Apps Challenge</div>
         <div class="aw-org">NASA · Oct 2022 · 29,000+ global participants</div>
         <div class="aw-desc">Built an interactive educational simulation of the Parker Solar Probe trajectory from Earth to the solar corona. Integrated a QR-triggered mini-game using Unity and GDevelop. Selected as Global Nominee — top ~3% worldwide.</div>
@@ -927,7 +934,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       <div class="award-card aw-blue">
         <img src="Fair.jpeg" class="aw-img" alt="Graduation Fair">
         <div class="aw-rank">▲ 2nd Place — Graduation Fair</div>
-        <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUDeqBt1GWADiJiYxqnSBV0q_1cj3lmPDRIiCaVLMV7lUtfPU6cVZ2BKOboVYlLqI_2Sgyd5LwkVG5_yNTLJzwO4jKhTuVEudXMOk-J5K--EoBw0-hhoWXoctEYAM-zw8smQ6eEUtWjJyIctukdcdWx0sDgRJmPMjMieU5pHM6zpjEHZoP1zksaR-Wc2nwAsQQBOnxw5u9NQviScvj-87BLFXV-sYUJh4yIuOWI=w800" class="aw-img" alt="Graduation Fair" onerror="this.style.display='none'">
         <div class="aw-title">Graduation Project Fair</div>
         <div class="aw-org">Zewail City of Science &amp; Technology · Jun 2025</div>
         <div class="aw-desc">Lab-scale combustion chamber for kerosene–green hydrogen fuel blends. CFD-validated flame stability and temperature distribution across multiple fuel compositions. Ongoing research toward publication.</div>
@@ -936,7 +942,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       <div class="award-card aw-orange">
         <img src="IOM.jpeg" class="aw-img" alt="IOM Hackathon">
         <div class="aw-rank">◆ 3rd Place — MENA Region</div>
-        <img src="https://lh3.googleusercontent.com/sitesv/AA5AbUCTSBIItzEg5KSU2emeHySA4JFOWPGUstUR7qltboyikKMzrtQinMFIj1cWA10H1BPs-7i-R6hbZZuoeco2Sv9Z7648bzjgVyjLERBAcpm1STMD-DZzIk9wg-_kfGfiZcaocfEVCpyH4_7r8vjduia=w800" class="aw-img" alt="IOM Hackathon" onerror="this.style.display='none'">
         <div class="aw-title">Youth Climate Mobility Hackathon</div>
         <div class="aw-org">IOM – UN Migration &amp; YOUNGO · Sep 2025</div>
         <div class="aw-desc">Developed Aquavive — an AI-powered, energy-efficient water filtration solution for Gaza. Presented to an international panel of UN and IOM representatives as part of a multidisciplinary team.</div>
@@ -951,7 +956,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         </div>
       </div>
 
-    </div>
+    
   </div>
 </section>
 
@@ -986,7 +991,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
     <div class="proj-desc">
      <div class="proj-desc">
-Designed and built a full lab-scale combustion system — blower, preheater, combustor, and exhaust nozzle — for kerosene, green hydrogen, and blended fuels. Ran 15+ CFD cases in ANSYS Fluent and developed MATLAB models for combustion efficiency prediction. Created an interactive web-based digital twin of the entire test rig, including system operation, instrumentation, combustion monitoring, and control logic, providing a realistic visualization platform while the final SolidWorks, ANSYS, MATLAB, and Simulink models are under development.
+Designed and built a full lab-scale combustion system — blower, preheater, combustor, and exhaust nozzle — for kerosene, green hydrogen, and blended fuels. Ran 15+ CFD cases in ANSYS Fluent and developed MATLAB models for combustion efficiency prediction. Created an interactive web-based digital twin of the test rig covering system operation, instrumentation, combustion monitoring, and control logic. Final SolidWorks, ANSYS, MATLAB, and Simulink models are under development as part of ongoing research.
 </div>
     </div>
 
@@ -1171,7 +1176,7 @@ Designed and built a full lab-scale combustion system — blower, preheater, com
       
         <div class="proj-body">
           <div class="proj-cat cat-opt">MATLAB · OPTIMIZATION</div>
-          <div class="proj-title">Integer Programming Approaches for Real-Time Traffic Management &amp; Build</div>
+          <div class="proj-title">Integer Programming for Airline Network &amp; Traffic Management</div>
           <div class="proj-desc">Developed integer linear programming models for real-time aviation traffic management. Solved shortest path, minimum-cost flow, hub location, and airline network optimization problems using MATLAB and optimization techniques. Applied the methodology to Air Cairo's domestic network for hub selection and resource allocation.</div>
           <div class="proj-result">→ Optimized airline routing, hub selection, and transportation cost using ILP</div>
           <div class="proj-tools"><span class="tool">MATLAB</span><span class="tool">Integer Programming</span><span class="tool">Optimization</span><span class="tool">Airline Network Design</span></div>
@@ -1415,9 +1420,9 @@ Designed and built a full lab-scale combustion system — blower, preheater, com
       </div>
 
       <div class="exp-item">
-        <div class="exp-left"><div class="exp-date">Jul – Sep 2024</div><div class="exp-org">EgSA</div></div>
+        <div class="exp-left"><div class="exp-date">Jul – Sep 2025</div><div class="exp-org">EgSA</div></div>
         <div class="exp-right">
-          <div class="exp-role">Structural Design Engineer Intern — Egyptian Space Agency</div>
+          <div class="exp-role">Mechanical Design Engineer Intern — Egyptian Space Agency</div>
           <ul class="exp-points">
             <li>Contributed to end-to-end satellite design: configuration, structural, thermal, and payload subsystems</li>
             <li>Performed payload sizing and system architecture analysis using MATLAB</li>
@@ -1430,7 +1435,7 @@ Designed and built a full lab-scale combustion system — blower, preheater, com
       </div>
 
       <div class="exp-item">
-        <div class="exp-left"><div class="exp-date">Jul – Oct 2024</div><div class="exp-org">ZEWAIL CITY</div></div>
+        <div class="exp-left"><div class="exp-date">Jul – Oct 2025</div><div class="exp-org">ZEWAIL CITY</div></div>
         <div class="exp-right">
           <div class="exp-role">Undergraduate Internship Mentor — CNC Foam Cutter</div>
           <ul class="exp-points">
@@ -1496,6 +1501,23 @@ Designed and built a full lab-scale combustion system — blower, preheater, com
   </div>
 </section>
 
+<!-- EDUCATION & LEADERSHIP -->
+<section id="leadership" style="border-top:1px solid var(--border)">
+<div class="sec">
+<div class="sec-label reveal">Beyond the lab</div>
+<h2 class="sec-title reveal">Education &amp; Leadership</h2>
+<div class="exp-wrap reveal">
+<div class="exp-item"><div class="exp-left"><div class="exp-date">Sep 2020 – Jun 2025</div><div class="exp-org">ZEWAIL CITY</div></div><div class="exp-right"><div class="exp-role">B.Sc. Aerospace Engineering (Scholarship Recipient)</div><ul class="exp-points"><li>Aerospace Engineering, Zewail City of Science and Technology, Giza, Egypt</li></ul></div></div>
+<div class="exp-item"><div class="exp-left"><div class="exp-date">Present</div><div class="exp-org">EGYOUTH4CLIMATE</div></div><div class="exp-right"><div class="exp-role">Young Negotiator — Ministry of Youth and Sports</div><ul class="exp-points"><li>Represent Egypt in climate action initiatives and negotiation simulations; Innovation and Solutions Committee</li></ul></div></div>
+<div class="exp-item"><div class="exp-left"><div class="exp-date">May 2019 – Jun 2023</div><div class="exp-org">NASA</div></div><div class="exp-right"><div class="exp-role">Future Engineers — Competitor &amp; Judge</div><ul class="exp-points"><li>Competed in rover design and space exploration challenges; later served as competition judge</li></ul></div></div>
+<div class="exp-item"><div class="exp-left"><div class="exp-date">Oct 2024</div><div class="exp-org">BE AN AMBASSADOR</div></div><div class="exp-right"><div class="exp-role">Sustainability Ambassador Intern</div><ul class="exp-points"><li>Developed 32 educational videos on sustainability and climate policy</li></ul></div></div>
+<div class="exp-item"><div class="exp-left"><div class="exp-date">Mar – Nov 2024</div><div class="exp-org">STUDENT ENERGY</div></div><div class="exp-right"><div class="exp-role">Energy Fellow (Tier 2 track)</div><ul class="exp-points"><li>Fellowship in energy systems, project development, and energy transition</li></ul></div></div>
+<div class="exp-item"><div class="exp-left"><div class="exp-date">Nov 2023 – Apr 2024</div><div class="exp-org">MCKINSEY</div></div><div class="exp-right"><div class="exp-role">Forward Program Participant</div><ul class="exp-points"><li>Training in structured problem-solving, communication, and data-driven decision-making</li></ul></div></div>
+<div class="exp-item"><div class="exp-left"><div class="exp-date">2021 – 2023</div><div class="exp-org">ZEWAIL CITY</div></div><div class="exp-right"><div class="exp-role">Science Festival, Admissions Team &amp; Commencement</div><ul class="exp-points"><li>Event organization, HR coordination, media coverage, applicant support, and graduation ceremony logistics</li></ul></div></div>
+</div>
+</div>
+</section>
+
 <!-- SKILLS -->
 <section id="skills">
   <div class="sec">
@@ -1508,15 +1530,15 @@ Designed and built a full lab-scale combustion system — blower, preheater, com
         <div class="sk-item"><span class="sk-name">ANSYS FEA</span><div class="sk-track"><div class="sk-fill" data-w="85" style="width:0%"></div></div><span class="sk-pct">85%</span></div>
         <div class="sk-item"><span class="sk-name">COMSOL</span><div class="sk-track"><div class="sk-fill" data-w="65" style="width:0%"></div></div><span class="sk-pct">65%</span></div>
         <div class="sk-item"><span class="sk-name">Proteus</span><div class="sk-track"><div class="sk-fill" data-w="60" style="width:0%"></div></div><span class="sk-pct">60%</span></div>
-        <div class="sk-item"><span class="sk-name">LTspice</span><div class="sk-track"><div class="sk-fill" data-w="55" style="width:0%"></div></div><span class="sk-pct">55%</span></div>
+        <div class="sk-item"><span class="sk-name">LTspice</span></div><div class="sk-item"><span class="sk-name">QBlade (BEM)</span></div>
       </div>
       <div class="sk-group">
-        <div class="sk-label">CAD &amp; Design</div>
+        <div class="sk-label">CAD, Design &amp; Manufacturing</div>
         <div class="sk-item"><span class="sk-name">SolidWorks</span><div class="sk-track"><div class="sk-fill" data-w="92" style="width:0%"></div></div><span class="sk-pct">92%</span></div>
         <div class="sk-item"><span class="sk-name">Siemens NX</span><div class="sk-track"><div class="sk-fill" data-w="70" style="width:0%"></div></div><span class="sk-pct">70%</span></div>
         <div class="sk-item"><span class="sk-name">Inventor</span><div class="sk-track"><div class="sk-fill" data-w="75" style="width:0%"></div></div><span class="sk-pct">75%</span></div>
         <div class="sk-item"><span class="sk-name">CATIA</span><div class="sk-track"><div class="sk-fill" data-w="60" style="width:0%"></div></div><span class="sk-pct">60%</span></div>
-        <div class="sk-item"><span class="sk-name">Multisim</span><div class="sk-track"><div class="sk-fill" data-w="55" style="width:0%"></div></div><span class="sk-pct">55%</span></div>
+        <div class="sk-item"><span class="sk-name">Multisim</span></div><div class="sk-item"><span class="sk-name">CNC machining</span></div><div class="sk-item"><span class="sk-name">NDT (visual, dye-penetrant)</span></div>
       </div>
       <div class="sk-group">
         <div class="sk-label">Programming</div>
@@ -1543,7 +1565,7 @@ Designed and built a full lab-scale combustion system — blower, preheater, com
         </div>
 
         <p class="contact-sub reveal">
-          Open to propulsion, structures, and systems engineering roles and research opportunities. Based in Giza, Egypt — available for relocation.
+          Open to graduate research (PhD) opportunities in combustion and sustainable energy, and to propulsion, structures, and systems engineering roles. Based in Giza, Egypt — available for relocation.
         </p>
 
         <div class="contact-social reveal">
@@ -1551,16 +1573,8 @@ Designed and built a full lab-scale combustion system — blower, preheater, com
             <i class="fas fa-envelope"></i>
           </a>
 
-          <a href="https://www.linkedin.com/in/rehand-abdelhady" target="_blank">
+          <a href="https://www.linkedin.com/in/rehand-abdelhady-5150a1206/" target="_blank">
             <i class="fab fa-linkedin"></i>
-          </a>
-
-          <a href="https://www.instagram.com/rehand_abdelhady/" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-
-          <a href="https://www.facebook.com/rehand.yassin/" target="_blank">
-            <i class="fab fa-facebook"></i>
           </a>
         </div>
       </div>
@@ -1601,7 +1615,7 @@ Designed and built a full lab-scale combustion system — blower, preheater, com
   </div>
 </section>
 <footer>
-  <div class="foot-copy">© 2025 Rehand Abdelhady Yassin · Aerospace Engineer</div>
+  <div class="foot-copy">© 2026 Rehand Abdelhady Yassin · Aerospace Engineer</div>
   <div class="foot-copy">6th October · Giza · Egypt</div>
 </footer>
 
